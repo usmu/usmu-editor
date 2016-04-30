@@ -1,4 +1,4 @@
-# usmu-rails
+# usmu-editor
 
 This is the Rails-based editing counterpart to [usmu][usmu]. For now this project is on hold till the 
 basic generation functionality is fit for purpose. If you want to help out with this effort then
