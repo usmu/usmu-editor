@@ -3,7 +3,7 @@
   usmu/editor/version
 }.each {|f| require f }
 
-Class Usmu::Editor
+class Usmu::Editor
   def initialize
     @log = Logging.logger[self]
     @log.debug("Initializing usmu-editor v#{VERSION}")

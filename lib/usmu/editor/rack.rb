@@ -1,5 +1,6 @@
 require 'usmu'
 Usmu.verbose_logging
+Logging.logger['Usmu::Editor::Rack'].info("Loading available Tilt modules.")
 Usmu.load_lazy_tilt_modules
 Usmu.plugins.load_plugins
 
